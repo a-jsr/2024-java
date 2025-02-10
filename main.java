@@ -1,10 +1,9 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
-        Voiture maVoiture = new car(marque:"Toyota", modele: "Corolla", annee: 2022, Vitesse: " 56" km/h");
+        // Création d'un objet Voiture
+        Voiture maVoiture = new Voiture("Rouge", "Golf", "Volkswagen");
+
+        // Appel de la méthode démarrer
         maVoiture.demarrer();
-        maVoiture.afficherInfos();
-        maVoiture.accelerer(50);
-        maVoiture.freiner(20);
-        maVoiture.afficherInfos();
     }
 }
