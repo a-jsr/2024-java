@@ -4,3 +4,4 @@ public class Voiture2 implements Transport {
         System.out.println("La voiture roule sur la route.");
     }
 }
+
